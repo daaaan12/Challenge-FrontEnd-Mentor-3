@@ -1,0 +1,268 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900 
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Outfit&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:  hsl(225, 100%, 94%);
+  
+}
+
+h1 {
+    
+    text-align: center;
+    margin: 30px;
+  
+}
+
+p {
+
+    text-align: center;
+    padding: 30px;
+   
+}
+
+span {
+    margin: 10px;
+    
+}
+
+a {
+    padding-right: 10px;
+    font-size: 1.2em;
+    line-height: 3.8;
+}
+
+i {
+    
+    width: 40px;
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+
+
+.plano-ano {
+    
+    font-size: 1.2em;
+    font-weight: 900;
+    font-style: bold;
+    position: relative;
+    left: 15px;
+    top: 5px;
+   
+}
+
+.plano-valor {
+    color: hsl(224, 5%, 46%);
+    position: relative;
+    left: -105px;
+    top: 29px;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+#centralizador-card {
+   
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+
+#card-principal {
+    background: white;
+    width: 28em;
+    height: 40em;
+    border-radius: 20px;
+    display: flex;
+ 
+    flex-direction: column;
+    
+}
+
+#container-plano {
+    width: 75%;
+    height: 80px;
+    background-color: hsl(225, 100%, 94%);
+    border-radius: 10px;
+    position: relative;
+    left: 60px;
+    top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+#container-texto {
+    text-align: center;
+    margin: -12px;
+   
+}
+
+.texto-descricao {
+    position: relative;
+    width: 260px;
+    top: -30px;
+    left: 80px;
+}
+
+#foto-topo {
+    width: 100%;
+   
+}
+
+.img-topo {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+
+.container-btn {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 18px;
+}
+
+.btn-payment {
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+    width: 95%;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(245, 75%, 52%);
+    line-height: 2;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2em;
+    position: relative;
+    left: 10px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.btn-order {
+    border: none;
+    background: white;
+    color: hsl(228, 2%, 54%);
+    font-weight: 900;
+    
+}
+
+@media (max-width: 375px) {
+
+    #centralizador-card {
+        display: flex;
+        position: relative;
+        top: 5px;
+    }
+
+    #card-principal {
+        max-width: 290px;
+        height: 400px;
+    }
+
+    #container-plano {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 1.1em;
+        position: relative;
+        top: -10px;
+    }
+
+    a {
+        font-size: 0.6em;
+    }
+
+    i {
+        width: 20px;
+        position: relative;
+        top: 15px;
+        }
+
+   .plano-ano {
+        font-size: 0.6em;
+        position: relative;
+        top: 1px;
+    }
+
+    .plano-valor {
+       font-size: 0.6em;
+       position: relative;
+       left: -55px;
+       top: 12px;
+    }
+
+    p {
+        position: relative;
+        left: -70px;
+    }
+    .texto-descricao {
+        position: relative;
+        left: 4px;
+        width: 250px;
+        top: -60px;
+    }
+
+    .btn-payment {
+        font-size: 0.9em;
+        height: 35px;
+        position: relative;
+        top: -80px;
+    }
+
+    .btn-order {
+        position: relative;
+        top: -85px;
+    }
+
+    #container-plano {
+       position: relative;
+       top: -75px;
+       height: 40px;
+       
+    }
+}

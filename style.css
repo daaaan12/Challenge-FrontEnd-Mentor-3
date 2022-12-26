@@ -217,6 +217,7 @@ button {
     color: var(--color-very-pale-blue);
     border: none;
     border-radius: 10px;
+    font-weight: 900;
 }
 
 .btn-order {
@@ -225,4 +226,5 @@ button {
     color: var(--color-desaturated-blue);
     padding-bottom: 20px;
     font-size: 0.9rem;
+    font-weight: 700;
 }

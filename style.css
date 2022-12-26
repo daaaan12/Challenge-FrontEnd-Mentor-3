@@ -142,6 +142,7 @@ h1 {
 #card-principal {
     position: absolute;
     max-width: 400px;
+    height: 62%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -171,9 +172,21 @@ h1 {
     letter-spacing: 1px;
 }
 
+.texto-descricao {
+    color: var(--color-desaturated-blue);
+}
+
 .img-topo {
     width: 100%;
     border-radius: 20px 20px 0 0;
+}
+
+.plano-ano {
+    font-weight: 900;
+}
+
+.plano-valor {
+    color: var(--color-desaturated-blue);
 }
 
 .change {
@@ -209,6 +222,7 @@ button {
 .btn-order {
     border: none;
     background-color: white;
-    color: var(--color-dark-blue);
+    color: var(--color-desaturated-blue);
     padding-bottom: 20px;
+    font-size: 0.9rem;
 }

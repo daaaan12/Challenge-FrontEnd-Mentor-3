@@ -44,6 +44,10 @@ The designs were created to the following widths:
     --color-dark-blue: hsl(223, 47%, 23%);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+
 /* Reset */
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html,
